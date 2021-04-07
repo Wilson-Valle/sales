@@ -1,0 +1,43 @@
+.main-title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.content-menu {
+  height: 350px;
+  width: 100%;
+  margin: 0px;
+  background-color: aliceblue;
+}
+
+.content-menu ul {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style-type: none;
+}
+
+.content-menu ul li {
+  width: 200px;
+  height: 100%;
+}
+
+.content-menu ul li a {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.content-menu ul li a:hover {
+  width: 240px;
+  z-index: 999;
+  position: absolute;
+}
+
+.content-menu ul li:nth-child(1) a {
+}

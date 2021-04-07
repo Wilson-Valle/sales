@@ -1,4 +1,0 @@
-ul.menuh li {
-  display: inline;
-  padding-right: 0.5em;
-}
